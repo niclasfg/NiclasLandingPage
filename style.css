@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.header {
+    background-color: rgb(121, 160, 194);
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-bar {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.hero {
+    background-color: blue;
+    display: flex;
+}
+
+.information-content {
+    background-color: antiquewhite;
+    display: flex;
+}
+
+.quote-content {
+    background-color: coral;
+    display: flex;
+}
+
+.action-content {
+    background-color: blueviolet;
+    display: flex;
+}
+
+.footer {
+    background-color: rgb(177, 141, 87);
+}
