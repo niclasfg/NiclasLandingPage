@@ -1,16 +1,18 @@
-* {
+/* * {
     border: 1px solid red;
-}
+} */
 
 body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     margin: 0;
+
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 .header {
-    background-color: rgb(121, 160, 194);
+    background-color: #1f2937;
     margin: 0;
     display: flex;
     justify-content: space-around;
@@ -22,12 +24,18 @@ body {
     display: flex;
     justify-content: space-around;
     gap: 10px;
+    background-color: #1f2937;
+    color: white;
+    text-decoration-style: none;
+    
 }
 
 .hero {
     background-color: blue;
     display: flex;
     gap: 32px;
+    background-color: #1f2937;
+    color: white;
 }
 
 .hero-textbox {
@@ -40,6 +48,7 @@ body {
 .hero-textbox button {
     flex-grow: 0;
     align-self: flex-start;
+    background-color: #3882F6;
 }
 
 .hero img {
@@ -101,6 +110,7 @@ body {
 
 .action-content button {
     align-self: center;
+    background-color: #3882F6;
 }
 
 .footer {
