@@ -1,5 +1,5 @@
 * {
-    border: 3px solid red;
+    border: 1px solid red;
 }
 
 body {
@@ -69,13 +69,41 @@ body {
 .quote-content {
     background-color: coral;
     display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.quotee {
+    align-self: flex-end;
+    text-decoration: bold;
 }
 
 .action-content {
     background-color: blueviolet;
     display: flex;
+    flex-grow: 0;
+    justify-content: center;
+    margin: 30px;
+}
+
+.action-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-content: flex-end;
+    margin: 10px;
+}
+
+.action-text p {
+    border: 2px solid blue;
+    margin: 1px;
+}
+
+.action-content button {
+    align-self: center;
 }
 
 .footer {
     background-color: rgb(177, 141, 87);
+    text-align: center;
 }
