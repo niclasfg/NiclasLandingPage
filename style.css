@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i');
+
 /* * {
     border: 1px solid red;
 } */
@@ -7,13 +9,15 @@ body {
     flex-direction: column;
     justify-content: space-between;
     margin: 0;
-
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font:bolder;
 }
 
 .header {
     background-color: #1f2937;
     margin: 0;
+
+
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -26,6 +30,7 @@ body {
     gap: 10px;
     background-color: #1f2937;
     color: white;
+    font: 900;
     text-decoration-style: none;
     
 }
@@ -33,6 +38,7 @@ body {
 a {
     text-decoration: none;
     color: white;
+    font: 900;
 }
 
 .hero {
@@ -41,6 +47,7 @@ a {
     gap: 32px;
     background-color: #1f2937;
     color: white;
+    justify-content: space-around;
 }
 
 .hero-textbox {
@@ -63,8 +70,11 @@ a {
 
 .hero img {
     align-self: center;
-    flex: 1;
-    border: 3px solid red;
+    align-self: center;
+    flex: 0;
+    height: 200px;
+    width: auto;
+    margin: 30px;
 }
 
 .information-content {
@@ -90,13 +100,13 @@ a {
     flex-basis: 0;
     flex-grow: 1;
     flex-shrink: 0;
-    width: 100px;
+    width: auto;
     height: 150px;
 }
 
 .info-box img {
     border: 2px solid #3882F6;
-    border-radius: 2px;
+    border-radius: 10px;
     height: 100px;
 }
 
