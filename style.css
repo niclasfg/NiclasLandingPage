@@ -30,6 +30,11 @@ body {
     
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
 .hero {
     background-color: blue;
     display: flex;
@@ -49,6 +54,11 @@ body {
     flex-grow: 0;
     align-self: flex-start;
     background-color: #3882F6;
+    color: white;
+    padding: 5px;
+    width: 120px;
+    border-radius: 3px;
+    border-style: none;
 }
 
 .hero img {
@@ -58,9 +68,10 @@ body {
 }
 
 .information-content {
-    background-color: antiquewhite;
+    background-color: white;
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     align-items: center;
     padding: 30px;
 }
@@ -69,51 +80,80 @@ body {
     display: flex;
     gap: 25px;
     align-items: center;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+
 }
 
 .info-box {
-    
+    flex-basis: 0;
+    flex-grow: 1;
+    flex-shrink: 0;
+    width: 100px;
+    height: 150px;
+}
+
+.info-box img {
+    border: 2px solid #3882F6;
+    border-radius: 2px;
+    height: 100px;
 }
 
 .quote-content {
-    background-color: coral;
+    background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
-    padding: 30px;
+    padding: 50px;
+    font-size: 22px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
 }
 
 .quotee {
     align-self: flex-end;
     text-decoration: bold;
+    font-style: normal;
+    font-size: 16px;
 }
 
 .action-content {
-    background-color: blueviolet;
+    background-color: #3882F6;
     display: flex;
     flex-grow: 0;
     justify-content: center;
     margin: 30px;
+    flex-basis: 100px;
+    border-radius: 10px;
 }
 
 .action-text {
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: center;
     align-content: flex-end;
     margin: 10px;
+
 }
 
 .action-text p {
-    border: 2px solid blue;
+    color: white;
     margin: 1px;
 }
 
 .action-content button {
     align-self: center;
     background-color: #3882F6;
+    border: 1px solid white;
+    color: white;
+    padding: 5px;
+    width: 90px;
+    border-radius: 3px;
 }
 
 .footer {
-    background-color: rgb(177, 141, 87);
+    background-color: #1f2937;
     text-align: center;
+    color: white;
 }
